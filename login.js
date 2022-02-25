@@ -32,4 +32,4 @@ $(document).ready(function(){
         alert("Date: Month- " + d.getMonth() + " day "+ d.getDate());
     }
 
-    }
+    
