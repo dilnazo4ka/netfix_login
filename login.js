@@ -10,26 +10,26 @@ sign_in_btn.addEventListener("click", () => {
     container.classList.remove("sign-up-mode");
 });
 
-const form = document.getElementById('form');
-const username = document.getElementById('username');
-const password = document.getElementById('password');
-const email = document.getElementById('email');
+$(document).ready(function(){
+    $("button").click(function(){
+        alert("Welcome to NetFix");
+    });
+});
 
-form.addEventListener('submit', (e) => {
-    e.preventDefault();
+    function Validate() {
+    var name = document.getElementById("Username").vallue;
+    var email = document.getElementById("Email").value;
+    var password = document.getElementById("Password").value;
 
-    checkInputs();
-})
- function checkInputs(){
-   const usernameValue = username.value.trim();
-   const emailValue = email.value.trim();
-   const passwordValue = password.value.trim();
+    alert("Registration submitted successfully!");
+    }
+    
 
-   if (usernameValue === ''){
-       set
-   }
-   else{
+    function Method(){
+        const d = new Date();
+        const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+        var month = months[d.getMonth()];
+        alert("Date: Month- " + d.getMonth() + " day "+ d.getDate());
+    }
 
-   }
- }
-
+    }
